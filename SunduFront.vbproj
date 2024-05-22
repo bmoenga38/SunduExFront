@@ -1,0 +1,651 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SunduFront</RootNamespace>
+    <AssemblyName>SunduFront</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44301</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>WebForms_Basic.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>WebForms_Basic.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.2.0.1\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.jQuery">
+      <HintPath>..\packages\AspNet.ScriptManager.jQuery.3.4.1\lib\net45\AspNet.ScriptManager.jQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.MSAjax">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.MSAjax.5.0.0\lib\net45\Microsoft.ScriptManager.MSAjax.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.WebForms">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.WebForms.5.0.0\lib\net45\Microsoft.ScriptManager.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Web.Optimization.WebForms">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.WebForms.1.1.3\lib\net45\Microsoft.AspNet.Web.Optimization.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.FriendlyUrls">
+      <HintPath>..\packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.2\lib\net45\Microsoft.AspNet.FriendlyUrls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.Routing" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AboutUs.aspx" />
+    <Content Include="Blog.aspx" />
+    <Content Include="BlogDetails.aspx" />
+    <Content Include="ContactHQ.aspx" />
+    <Content Include="ContactBranch.aspx" />
+    <Content Include="Content\bootstrap-grid.css" />
+    <Content Include="Content\bootstrap-grid.min.css" />
+    <Content Include="Content\bootstrap-grid.rtl.css" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css" />
+    <Content Include="Content\bootstrap-reboot.css" />
+    <Content Include="Content\bootstrap-reboot.min.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css" />
+    <Content Include="Content\bootstrap-utilities.css" />
+    <Content Include="Content\bootstrap-utilities.min.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\bootstrap.rtl.css" />
+    <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Error404.aspx" />
+    <Content Include="Faq.aspx" />
+    <Content Include="ForgotPassword.aspx" />
+    <Content Include="GettingStarted.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="HelpCenter.aspx" />
+    <Content Include="index.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="PrivacyPolicy.aspx" />
+    <Content Include="Register.aspx" />
+    <Content Include="Script.js" />
+    <Content Include="Scripts\bootstrap.bundle.js" />
+    <Content Include="Scripts\bootstrap.bundle.min.js" />
+    <Content Include="Scripts\bootstrap.esm.js" />
+    <Content Include="Scripts\bootstrap.esm.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\bootstrap.min.js.map" />
+    <Content Include="Scripts\bootstrap.js.map" />
+    <Content Include="Scripts\bootstrap.esm.min.js.map" />
+    <Content Include="Scripts\bootstrap.esm.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.min.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.js.map" />
+    <Content Include="Content\bootstrap.rtl.min.css.map" />
+    <Content Include="Content\bootstrap.rtl.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.css.map" />
+    <Content Include="Content\bootstrap-utilities.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.css.map" />
+    <Content Include="Content\bootstrap-reboot.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.css.map" />
+    <Content Include="Content\bootstrap-grid.min.css.map" />
+    <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="Services.aspx" />
+    <Content Include="TermsOfService.aspx" />
+    <Content Include="Testimonials.aspx" />
+    <Content Include="webassets\css\animate.min.css" />
+    <Content Include="webassets\css\aos.css" />
+    <Content Include="webassets\css\bootstrap.min.css" />
+    <Content Include="webassets\css\dark.css" />
+    <Content Include="webassets\css\flaticon.css" />
+    <Content Include="webassets\css\footer.css" />
+    <Content Include="webassets\css\magnific-popup.min.css" />
+    <Content Include="webassets\css\meanmenu.min.css" />
+    <Content Include="webassets\css\navbar.css" />
+    <Content Include="webassets\css\odometer.min.css" />
+    <Content Include="webassets\css\owl.carousel.min.css" />
+    <Content Include="webassets\css\owl.theme.default.min.css" />
+    <Content Include="webassets\css\owl.video.play.html" />
+    <Content Include="webassets\css\remixicon.css" />
+    <Content Include="webassets\css\responsive.css" />
+    <Content Include="webassets\css\style.css" />
+    <Content Include="webassets\fonts\flaticona4fc.svg" />
+    <Content Include="webassets\fonts\remixicondf6d.html" />
+    <Content Include="webassets\images\app.png" />
+    <Content Include="webassets\images\benefits\benefits-1.png" />
+    <Content Include="webassets\images\benefits\benefits-2.png" />
+    <Content Include="webassets\images\benefits\benefits-3.png" />
+    <Content Include="webassets\images\benefits\benefits-4.png" />
+    <Content Include="webassets\images\benefits\benefits-5.png" />
+    <Content Include="webassets\images\benefits\benefits-6.png" />
+    <Content Include="webassets\images\blog-details.jpg" />
+    <Content Include="webassets\images\blog\blog-1.jpg" />
+    <Content Include="webassets\images\blog\blog-2.jpg" />
+    <Content Include="webassets\images\blog\blog-3.jpg" />
+    <Content Include="webassets\images\blog\blog-4.jpg" />
+    <Content Include="webassets\images\blog\blog-5.jpg" />
+    <Content Include="webassets\images\blog\blog-6.jpg" />
+    <Content Include="webassets\images\blog\image-1.jpg" />
+    <Content Include="webassets\images\china.png" />
+    <Content Include="webassets\images\coming-soon-bg.jpg" />
+    <Content Include="webassets\images\compare-pricing\compare-1.png" />
+    <Content Include="webassets\images\compare-pricing\compare-11.png" />
+    <Content Include="webassets\images\compare-pricing\compare-2.png" />
+    <Content Include="webassets\images\compare-pricing\compare-3.png" />
+    <Content Include="webassets\images\compare-pricing\compare-4.png" />
+    <Content Include="webassets\images\compare-pricing\compare-5.png" />
+    <Content Include="webassets\images\coverage\arab-flag.png" />
+    <Content Include="webassets\images\coverage\coverage-1.png" />
+    <Content Include="webassets\images\coverage\coverage-2.png" />
+    <Content Include="webassets\images\coverage\coverage-3.png" />
+    <Content Include="webassets\images\coverage\coverage-4.png" />
+    <Content Include="webassets\images\coverage\coverage-5.png" />
+    <Content Include="webassets\images\coverage\coverage-6.png" />
+    <Content Include="webassets\images\coverage\coverage-7.png" />
+    <Content Include="webassets\images\coverage\coverage-8.png" />
+    <Content Include="webassets\images\coverage\eritria-flag.png" />
+    <Content Include="webassets\images\coverage\kenyan-flag.png" />
+    <Content Include="webassets\images\coverage\Saudi-Arabia.png" />
+    <Content Include="webassets\images\coverage\shape-1.png" />
+    <Content Include="webassets\images\coverage\shape-2.png" />
+    <Content Include="webassets\images\coverage\sudan-flag.png" />
+    <Content Include="webassets\images\coverage\uganda-flag.png" />
+    <Content Include="webassets\images\currency-flag\AED.png" />
+    <Content Include="webassets\images\currency-flag\AUD.png" />
+    <Content Include="webassets\images\currency-flag\CAD.png" />
+    <Content Include="webassets\images\currency-flag\EUR.png" />
+    <Content Include="webassets\images\currency-flag\GBP.png" />
+    <Content Include="webassets\images\currency-flag\JPY.png" />
+    <Content Include="webassets\images\currency-flag\MYR.png" />
+    <Content Include="webassets\images\currency-flag\NZD.png" />
+    <Content Include="webassets\images\currency-flag\TRY.png" />
+    <Content Include="webassets\images\currency-flag\USD.png" />
+    <Content Include="webassets\images\error.png" />
+    <Content Include="webassets\images\explore\explore-1.png" />
+    <Content Include="webassets\images\explore\explore-2.png" />
+    <Content Include="webassets\images\explore\explore-3.png" />
+    <Content Include="webassets\images\explore\explore-4.png" />
+    <Content Include="webassets\images\explore\explore-5.png" />
+    <Content Include="webassets\images\explore\explore-6.png" />
+    <Content Include="webassets\images\faq.png" />
+    <Content Include="webassets\images\favicon.png" />
+    <Content Include="webassets\images\features\features-1.png" />
+    <Content Include="webassets\images\features\features-2.png" />
+    <Content Include="webassets\images\features\features-3.png" />
+    <Content Include="webassets\images\features\icon-1.png" />
+    <Content Include="webassets\images\features\icon-2.png" />
+    <Content Include="webassets\images\features\shape-1.png" />
+    <Content Include="webassets\images\getting-started\banner_bg.png" />
+    <Content Include="webassets\images\getting-started\getting-1.png" />
+    <Content Include="webassets\images\getting-started\getting-2.png" />
+    <Content Include="webassets\images\getting-started\getting-3.png" />
+    <Content Include="webassets\images\getting-started\getting-4.png" />
+    <Content Include="webassets\images\getting-started\getting-women-1.png" />
+    <Content Include="webassets\images\getting-started\getting-women.png" />
+    <Content Include="webassets\images\getting-started\shape-1.png" />
+    <Content Include="webassets\images\getting-started\shape-2.png" />
+    <Content Include="webassets\images\getting-started\shape-3.png" />
+    <Content Include="webassets\images\getting-started\yellow.png" />
+    <Content Include="webassets\images\help.png" />
+    <Content Include="webassets\images\logo-2.png" />
+    <Content Include="webassets\images\logo.png" />
+    <Content Include="webassets\images\main-banner\12.jpg" />
+    <Content Include="webassets\images\main-banner\banner-bg.jpg" />
+    <Content Include="webassets\images\main-banner\banner-women.png" />
+    <Content Include="webassets\images\main-banner\banner.jpg" />
+    <Content Include="webassets\images\main-banner\diamond.png" />
+    <Content Include="webassets\images\main-banner\hijab.png" />
+    <Content Include="webassets\images\main-banner\line-graph.png" />
+    <Content Include="webassets\images\main-banner\shape-1.png" />
+    <Content Include="webassets\images\main-banner\shape-2.png" />
+    <Content Include="webassets\images\main-banner\shape-3.png" />
+    <Content Include="webassets\images\main-banner\shape-4.png" />
+    <Content Include="webassets\images\main-banner\shape-5.png" />
+    <Content Include="webassets\images\main-banner\sundus-bg.png" />
+    <Content Include="webassets\images\main-banner\vector-2.png" />
+    <Content Include="webassets\images\main-banner\vector.png" />
+    <Content Include="webassets\images\main-banner\yellow.png" />
+    <Content Include="webassets\images\night.png" />
+    <Content Include="webassets\images\overview\shape-1.png" />
+    <Content Include="webassets\images\overview\shape-2.png" />
+    <Content Include="webassets\images\page-banner\banner.png" />
+    <Content Include="webassets\images\page-banner\shape-2.png" />
+    <Content Include="webassets\images\page-banner\shape-3.png" />
+    <Content Include="webassets\images\page-banner\shape.png" />
+    <Content Include="webassets\images\paiement.png" />
+    <Content Include="webassets\images\partner\partner-1.png" />
+    <Content Include="webassets\images\partner\partner-2.png" />
+    <Content Include="webassets\images\partner\partner-3.png" />
+    <Content Include="webassets\images\partner\partner-4.png" />
+    <Content Include="webassets\images\partner\partner-5.png" />
+    <Content Include="webassets\images\partner\partner-6.png" />
+    <Content Include="webassets\images\quote-icon.png" />
+    <Content Include="webassets\images\reliable\chose-us-1.png" />
+    <Content Include="webassets\images\reliable\reliable-1.png" />
+    <Content Include="webassets\images\reliable\reliable-2.png" />
+    <Content Include="webassets\images\reliable\reliable-3.png" />
+    <Content Include="webassets\images\reliable\reliable.png" />
+    <Content Include="webassets\images\reliable\shape-1.png" />
+    <Content Include="webassets\images\reliable\shape-2.png" />
+    <Content Include="webassets\images\review\review-1.jpg" />
+    <Content Include="webassets\images\review\review-1.png" />
+    <Content Include="webassets\images\review\review-2.jpg" />
+    <Content Include="webassets\images\review\review-2.png" />
+    <Content Include="webassets\images\review\shape-1.png" />
+    <Content Include="webassets\images\review\shape-2.png" />
+    <Content Include="webassets\images\security\security-1.jpg" />
+    <Content Include="webassets\images\security\security-2.jpg" />
+    <Content Include="webassets\images\security\security-3.jpg" />
+    <Content Include="webassets\images\security\security.jpeg" />
+    <Content Include="webassets\images\security\security.jpg" />
+    <Content Include="webassets\images\security\shape-1.png" />
+    <Content Include="webassets\images\security\shape-2.png" />
+    <Content Include="webassets\images\sundus.svg" />
+    <Content Include="webassets\images\sunny.png" />
+    <Content Include="webassets\images\team\man-1.png" />
+    <Content Include="webassets\images\team\man-suit.png" />
+    <Content Include="webassets\images\team\suit-2.jpg" />
+    <Content Include="webassets\images\team\suit-3.jpg" />
+    <Content Include="webassets\images\team\suit-4.jpg" />
+    <Content Include="webassets\images\team\team-1.jpg" />
+    <Content Include="webassets\images\team\team-2.jpg" />
+    <Content Include="webassets\images\team\team-3.jpg" />
+    <Content Include="webassets\images\team\team-4.jpg" />
+    <Content Include="webassets\images\team\team-5.jpg" />
+    <Content Include="webassets\images\team\team-6.jpg" />
+    <Content Include="webassets\images\team\team-7.jpg" />
+    <Content Include="webassets\images\team\team-8.jpg" />
+    <Content Include="webassets\images\uae.png" />
+    <Content Include="webassets\images\uk.png" />
+    <Content Include="webassets\images\why-choose-us\choose-us-3.png" />
+    <Content Include="webassets\images\why-choose-us\chose-us-1.png" />
+    <Content Include="webassets\images\why-choose-us\chose-us-2.png" />
+    <Content Include="webassets\images\why-choose-us\shape-1.png" />
+    <Content Include="webassets\images\why-choose-us\shape-2.png" />
+    <Content Include="webassets\js\aos.js" />
+    <Content Include="webassets\js\bootstrap.bundle.min.js" />
+    <Content Include="webassets\js\contact-form-script.js" />
+    <Content Include="webassets\js\form-validator.min.js" />
+    <Content Include="webassets\js\jquery.ajaxchimp.min.js" />
+    <Content Include="webassets\js\jquery.appear.js" />
+    <Content Include="webassets\js\jquery.magnific-popup.min.js" />
+    <Content Include="webassets\js\jquery.meanmenu.js" />
+    <Content Include="webassets\js\jquery.min.js" />
+    <Content Include="webassets\js\main.js" />
+    <Content Include="webassets\js\odometer.min.js" />
+    <Content Include="webassets\js\owl.carousel.min.js" />
+    <Content Include="webassets\js\ScrollMagic.min.js" />
+    <Content Include="webassets\js\TweenMax.min.js" />
+    <Content Include="webassets\js\wow.min.js" />
+    <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.4.1.js" />
+    <Content Include="Scripts\jquery-3.4.1.min.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\WebForms\DetailsView.js" />
+    <Content Include="Scripts\WebForms\Focus.js" />
+    <Content Include="Scripts\WebForms\GridView.js" />
+    <Content Include="Scripts\WebForms\Menu.js" />
+    <Content Include="Scripts\WebForms\MenuStandards.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
+    <Content Include="Scripts\WebForms\SmartNav.js" />
+    <Content Include="Scripts\WebForms\TreeView.js" />
+    <Content Include="Scripts\WebForms\WebForms.js" />
+    <Content Include="Scripts\WebForms\WebParts.js" />
+    <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="Web.config" />
+    <Content Include="Bundle.config" />
+    <Content Include="webassets\fonts\flaticona4fc.eot" />
+    <Content Include="webassets\fonts\flaticona4fc.ttf" />
+    <Content Include="webassets\fonts\flaticona4fc.woff" />
+    <Content Include="webassets\fonts\flaticona4fc.woff2" />
+    <Content Include="webassets\fonts\remixicondf6d.eot" />
+    <Content Include="webassets\fonts\remixicondf6d.ttf" />
+    <Content Include="webassets\fonts\remixicondf6d.woff" />
+    <Content Include="webassets\fonts\remixicondf6d.woff2" />
+    <Content Include="webassets\images\main-banner\4.webp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutUs.aspx.designer.vb">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AboutUs.aspx.vb">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="App_Start\BundleConfig.vb" />
+    <Compile Include="App_Start\RouteConfig.vb" />
+    <Compile Include="Blog.aspx.designer.vb">
+      <DependentUpon>Blog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Blog.aspx.vb">
+      <DependentUpon>Blog.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="BlogDetails.aspx.designer.vb">
+      <DependentUpon>BlogDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlogDetails.aspx.vb">
+      <DependentUpon>BlogDetails.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ContactHQ.aspx.designer.vb">
+      <DependentUpon>ContactHQ.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContactHQ.aspx.vb">
+      <DependentUpon>ContactHQ.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ContactBranch.aspx.designer.vb">
+      <DependentUpon>ContactBranch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContactBranch.aspx.vb">
+      <DependentUpon>ContactBranch.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Error404.aspx.designer.vb">
+      <DependentUpon>Error404.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error404.aspx.vb">
+      <DependentUpon>Error404.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Faq.aspx.designer.vb">
+      <DependentUpon>Faq.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Faq.aspx.vb">
+      <DependentUpon>Faq.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ForgotPassword.aspx.designer.vb">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPassword.aspx.vb">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="GettingStarted.aspx.designer.vb">
+      <DependentUpon>GettingStarted.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GettingStarted.aspx.vb">
+      <DependentUpon>GettingStarted.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HelpCenter.aspx.designer.vb">
+      <DependentUpon>HelpCenter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HelpCenter.aspx.vb">
+      <DependentUpon>HelpCenter.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.vb">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.vb">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PrivacyPolicy.aspx.designer.vb">
+      <DependentUpon>PrivacyPolicy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PrivacyPolicy.aspx.vb">
+      <DependentUpon>PrivacyPolicy.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.vb">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Register.aspx.vb">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Services.aspx.designer.vb">
+      <DependentUpon>Services.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Services.aspx.vb">
+      <DependentUpon>Services.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TermsOfService.aspx.designer.vb">
+      <DependentUpon>TermsOfService.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TermsOfService.aspx.vb">
+      <DependentUpon>TermsOfService.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Testimonials.aspx.designer.vb">
+      <DependentUpon>Testimonials.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Testimonials.aspx.vb">
+      <DependentUpon>Testimonials.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Site.Master" />
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.4.1.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52628</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44301/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
