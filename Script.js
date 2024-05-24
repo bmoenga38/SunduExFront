@@ -134,18 +134,18 @@
             function ($scope, $http, $resource, NgTableParams, $window, msgsuccess, msgerr) {
                 $scope.loading = true;
                 $scope.StaffID = "0";
-                $scope.StaffName = ""; 
+                $scope.StaffName = "";
                 $scope.Email = "";
-                $scope.NationalID = "";  
-                $scope.RoleID = "0"; 
+                $scope.NationalID = "";
+                $scope.RoleID = "0";
                 $scope.EmploymentStatusID = "1";
                 $scope.PhoneNumber = +254;
 
                 $scope.DisableButton = false;
 
-                getAllStaff(); 
+                getAllStaff();
 
-                getRoles(); 
+                getRoles();
 
 
                 function getAllStaff() {
@@ -168,26 +168,39 @@
                         });
 
                 }
-                 
+
                 function getRoles() {
                     $http.post('SundusEx.asmx/GetRoles')
                         .then(function (response) {
                             $scope.Roles = response.data;
                         }).finally(function () {
                         });
-                } 
+                }
+
+                function getCurrencies() {
+                    $http.post('SundusEx.asmx/GetCurrencyFrom')
+                        .then(function (response) {
+                            $scope.Currencies = response.data;
+                        }).catch(function (error) {
+                            console.error('Error fetching currencies:', error);
+                            msgerr.msgerr('Error fetching currencies: ' + error.message);
+                        }).finally(function () {
+                            $scope.loading = false;
+                        });
+                }
+
 
                 // close Job modal
                 $scope.closeModal = function () {
                     $scope.loading = false;
                     $scope.StaffID = "0";
-                    $scope.StaffName = ""; 
+                    $scope.StaffName = "";
                     $scope.Email = "";
-                    $scope.NationalID = ""; 
-                    $scope.RoleID = "0"; 
+                    $scope.NationalID = "";
+                    $scope.RoleID = "0";
                     $scope.EmploymentStatusID = "1";
                     $scope.PhoneNumber = +254;
-                    $scope.DisableButton = false; 
+                    $scope.DisableButton = false;
                 }
 
 
@@ -208,7 +221,7 @@
                         $scope.loading = false;
                         return;
                     }
-                    
+
                     if ($scope.NationalID === "") {
                         msgerr.msgerr("Please enter the National ID");
                         $scope.DisableButton = false;
@@ -258,7 +271,7 @@
                             $scope.NationalID = "";
                             $scope.RoleID = "0";
                             $scope.EmploymentStatusID = "1";
-                            $scope.PhoneNumber = +254; 
+                            $scope.PhoneNumber = +254;
                             msgsuccess.msgsuccess("saved Successfully");
                             $scope.DisableButton = false;
                             getAllStaff();
@@ -292,20 +305,20 @@
                     $scope.RoleID = "0";
                     $scope.EmploymentStatusID = "1";
                     $scope.PhoneNumber = +254;
-                    $scope.DisableButton = false; 
+                    $scope.DisableButton = false;
                 }
 
                 $scope.ShowEditStaff = function (Staff) {
                     $scope.StaffID = Staff.StaffID;
-                    $scope.StaffName = Staff.StaffName; 
+                    $scope.StaffName = Staff.StaffName;
                     $scope.Email = Staff.Email;
                     $scope.NationalID = Staff.NationalID;
                     $scope.PhoneNumber = Staff.PhoneNumber;
-                    $scope.RoleID = Staff.RoleID; 
-                    $scope.EmploymentStatusID = Staff.EmploymentStatusID; 
-                    $scope.PhoneNumber = Staff.PhoneNumber; 
+                    $scope.RoleID = Staff.RoleID;
+                    $scope.EmploymentStatusID = Staff.EmploymentStatusID;
+                    $scope.PhoneNumber = Staff.PhoneNumber;
 
-                    $scope.loading = false; 
+                    $scope.loading = false;
                     $scope.DisableButton = false;
                 }
 
@@ -339,7 +352,7 @@
                             $scope.RoleID = "0";
                             $scope.EmploymentStatusID = "1";
                             $scope.PhoneNumber = +254;
-                            $scope.DisableButton = false; 
+                            $scope.DisableButton = false;
                             msgsuccess.msgsuccess("Deleted successfully");
                             $scope.DisableButton = false;
                             getAllStaff();

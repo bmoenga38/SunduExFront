@@ -5265,3 +5265,49 @@ h6:last-child {
     justify-content: center;
     align-items: center;
 }
+
+
+/* Contact us (HQ | Branch) */
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.special-tab ul {
+    display: inline-block;
+    background: #90006F;
+    display: inline-block;
+    border-radius: 28px;
+}
+
+.special-tab ul li {
+    display: inline-block;
+}
+
+.special-tab ul li a {
+    display: inline-block;
+    color: #fff;
+    transition: all 400ms ease;
+    font-size: 14px;
+    padding: 14px 28px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.special-tab .nav-tabs {
+    border: unset;
+}
+
+.special-tab ul li a.active {
+    background: #fd9d3e;
+    border-radius: 28px;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.current {
+    display: block;
+}

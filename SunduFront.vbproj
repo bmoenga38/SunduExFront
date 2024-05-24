@@ -128,10 +128,203 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AboutUs.aspx" />
+    <Content Include="assets\css\landing.css" />
+    <Content Include="assets\css\plugins\animate.min.css" />
+    <Content Include="assets\css\plugins\autoFill.bootstrap5.min.css" />
+    <Content Include="assets\css\plugins\bootstrap-slider.min.css" />
+    <Content Include="assets\css\plugins\bootstrap-switch-button.min.css" />
+    <Content Include="assets\css\plugins\buttons.bootstrap5.min.css" />
+    <Content Include="assets\css\plugins\croppr.min.css" />
+    <Content Include="assets\css\plugins\dataTables.bootstrap5.min.css" />
+    <Content Include="assets\css\plugins\datepicker-bs5.min.css" />
+    <Content Include="assets\css\plugins\dragula.min.css" />
+    <Content Include="assets\css\plugins\dropzone.min.css" />
+    <Content Include="assets\css\plugins\fixedColumns.bootstrap5.min.css" />
+    <Content Include="assets\css\plugins\fixedHeader.bootstrap5.min.css" />
+    <Content Include="assets\css\plugins\flatpickr.min.css" />
+    <Content Include="assets\css\plugins\introjs.min.css" />
+    <Content Include="assets\css\plugins\jsvectormap.min.css" />
+    <Content Include="assets\css\plugins\keyTable.bootstrap5.min.css" />
+    <Content Include="assets\css\plugins\notifier.css" />
+    <Content Include="assets\css\plugins\nouislider.min.css" />
+    <Content Include="assets\css\plugins\prism-coy.css" />
+    <Content Include="assets\css\plugins\quill.bubble.css" />
+    <Content Include="assets\css\plugins\quill.core.css" />
+    <Content Include="assets\css\plugins\quill.snow.css" />
+    <Content Include="assets\css\plugins\responsive.bootstrap5.min.css" />
+    <Content Include="assets\css\plugins\rowReorder.bootstrap5.min.css" />
+    <Content Include="assets\css\plugins\scroller.bootstrap5.min.css" />
+    <Content Include="assets\css\plugins\select.bootstrap5.min.css" />
+    <Content Include="assets\css\plugins\simplemde.min.css" />
+    <Content Include="assets\css\plugins\star-rating.min.css" />
+    <Content Include="assets\css\plugins\style.css" />
+    <Content Include="assets\css\plugins\tiny-slider.css" />
+    <Content Include="assets\css\plugins\uppy.min.css" />
+    <Content Include="assets\css\plugins\vanillatree.css" />
+    <Content Include="assets\css\style-preset.css" />
+    <Content Include="assets\css\style.css" />
+    <Content Include="assets\css\uikit.css" />
+    <Content Include="assets\fonts\feather.css" />
+    <Content Include="assets\fonts\fontawesome.css" />
+    <Content Include="assets\fonts\fontawesome\fa-brands-400.svg" />
+    <Content Include="assets\fonts\fontawesome\fa-regular-400.svg" />
+    <Content Include="assets\fonts\fontawesome\fa-solid-900.svg" />
+    <Content Include="assets\fonts\inter\inter.css" />
+    <Content Include="assets\fonts\material.css" />
+    <Content Include="assets\fonts\phosphor\duotone\Phosphor-Duotone.svg" />
+    <Content Include="assets\fonts\phosphor\duotone\style.css" />
+    <Content Include="assets\fonts\tabler-icons.min.css" />
+    <Content Include="assets\fonts\tabler\tabler-icons.svg" />
+    <Content Include="assets\icons\add-folder.gif" />
+    <Content Include="assets\icons\add-post.png" />
+    <Content Include="assets\icons\add.png" />
+    <Content Include="assets\icons\avatar.png" />
+    <Content Include="assets\icons\cancel.gif" />
+    <Content Include="assets\icons\chat.png" />
+    <Content Include="assets\icons\checked.png" />
+    <Content Include="assets\icons\close-folder.png" />
+    <Content Include="assets\icons\counting.png" />
+    <Content Include="assets\icons\COUNTY.png" />
+    <Content Include="assets\icons\curriculum-vitae.gif" />
+    <Content Include="assets\icons\delete.png" />
+    <Content Include="assets\icons\deletered.png" />
+    <Content Include="assets\icons\download.png" />
+    <Content Include="assets\icons\edit.png" />
+    <Content Include="assets\icons\female.jpg" />
+    <Content Include="assets\icons\folder.png" />
+    <Content Include="assets\icons\impact.png" />
+    <Content Include="assets\icons\interaction.gif" />
+    <Content Include="assets\icons\notification.gif" />
+    <Content Include="assets\icons\quality-control.gif" />
+    <Content Include="assets\icons\receipt.gif" />
+    <Content Include="assets\icons\remove.png" />
+    <Content Include="assets\icons\search.png" />
+    <Content Include="assets\icons\shield.gif" />
+    <Content Include="assets\icons\stalled.png" />
+    <Content Include="assets\images\bg3.jpg" />
+    <Content Include="assets\images\bg4.jpg" />
+    <Content Include="assets\images\county-logo.png" />
+    <Content Include="assets\images\favicon.svg" />
+    <Content Include="assets\images\hex.png" />
+    <Content Include="assets\images\hexbg.jpg" />
+    <Content Include="assets\images\logo-dark.svg" />
+    <Content Include="assets\images\logo.png" />
+    <Content Include="assets\images\logo4.jpeg" />
+    <Content Include="assets\images\logo8.jpeg" />
+    <Content Include="assets\images\logo9.png" />
+    <Content Include="assets\images\user\avatar-1.jpg" />
+    <Content Include="assets\images\user\avatar-10.jpg" />
+    <Content Include="assets\images\user\avatar-2.jpg" />
+    <Content Include="assets\images\user\avatar-3.jpg" />
+    <Content Include="assets\images\user\avatar-4.jpg" />
+    <Content Include="assets\images\user\avatar-5.jpg" />
+    <Content Include="assets\images\user\avatar-6.jpg" />
+    <Content Include="assets\images\user\avatar-7.jpg" />
+    <Content Include="assets\images\user\avatar-8.jpg" />
+    <Content Include="assets\images\user\avatar-9.jpg" />
+    <Content Include="assets\images\user\Cool Pic.jpeg" />
+    <Content Include="assets\js\angular.min.js" />
+    <Content Include="assets\js\component.js" />
+    <Content Include="assets\js\fonts\custom-font.js" />
+    <Content Include="assets\js\layout-compact.js" />
+    <Content Include="assets\js\layout-horizontal.js" />
+    <Content Include="assets\js\layout-tab.js" />
+    <Content Include="assets\js\pages\ac-alert.js" />
+    <Content Include="assets\js\pages\ac-datepicker.js" />
+    <Content Include="assets\js\pages\ac-notification.js" />
+    <Content Include="assets\js\pages\ac-rangeslider.js" />
+    <Content Include="assets\js\pages\ac-slider.js" />
+    <Content Include="assets\js\pages\ac-tour.js" />
+    <Content Include="assets\js\pages\ac-treeview.js" />
+    <Content Include="assets\js\pages\calendar.js" />
+    <Content Include="assets\js\pages\canada.js" />
+    <Content Include="assets\js\pages\chart-apex.js" />
+    <Content Include="assets\js\pages\dashboard-analytics.js" />
+    <Content Include="assets\js\pages\dashboard-default.js" />
+    <Content Include="assets\js\pages\form-masking-custom.js" />
+    <Content Include="assets\js\pages\form-validation.js" />
+    <Content Include="assets\js\pages\invoice-dashboard.js" />
+    <Content Include="assets\js\pages\invoice-list.js" />
+    <Content Include="assets\js\pages\iraq.js" />
+    <Content Include="assets\js\pages\italy.js" />
+    <Content Include="assets\js\pages\map-vector.js" />
+    <Content Include="assets\js\pages\page-croper.js" />
+    <Content Include="assets\js\pages\russia.js" />
+    <Content Include="assets\js\pages\spain.js" />
+    <Content Include="assets\js\pages\us-aea-en.js" />
+    <Content Include="assets\js\pages\us-lcc-en.js" />
+    <Content Include="assets\js\pages\us-merc-en.js" />
+    <Content Include="assets\js\pages\us-mill-en.js" />
+    <Content Include="assets\js\pages\w-chart.js" />
+    <Content Include="assets\js\pcoded.js" />
+    <Content Include="assets\js\plugins\apexcharts.min.js" />
+    <Content Include="assets\js\plugins\autoFill.bootstrap5.min.js" />
+    <Content Include="assets\js\plugins\bootstrap-slider.min.js" />
+    <Content Include="assets\js\plugins\bootstrap-switch-button.min.js" />
+    <Content Include="assets\js\plugins\bootstrap.min.js" />
+    <Content Include="assets\js\plugins\bouncer.min.js" />
+    <Content Include="assets\js\plugins\buttons.bootstrap5.min.js" />
+    <Content Include="assets\js\plugins\buttons.colVis.min.js" />
+    <Content Include="assets\js\plugins\buttons.html5.min.js" />
+    <Content Include="assets\js\plugins\buttons.print.min.js" />
+    <Content Include="assets\js\plugins\choices.min.js" />
+    <Content Include="assets\js\plugins\ckeditor\balloon\ckeditor.js" />
+    <Content Include="assets\js\plugins\ckeditor\classic\ckeditor.js" />
+    <Content Include="assets\js\plugins\ckeditor\document\ckeditor.js" />
+    <Content Include="assets\js\plugins\ckeditor\inline\ckeditor.js" />
+    <Content Include="assets\js\plugins\clipboard.min.js" />
+    <Content Include="assets\js\plugins\croppr.min.js" />
+    <Content Include="assets\js\plugins\dataTables.autoFill.min.js" />
+    <Content Include="assets\js\plugins\dataTables.bootstrap5.min.js" />
+    <Content Include="assets\js\plugins\dataTables.buttons.min.js" />
+    <Content Include="assets\js\plugins\dataTables.colReorder.min.js" />
+    <Content Include="assets\js\plugins\dataTables.fixedColumns.min.js" />
+    <Content Include="assets\js\plugins\dataTables.fixedHeader.min.js" />
+    <Content Include="assets\js\plugins\dataTables.keyTable.min.js" />
+    <Content Include="assets\js\plugins\dataTables.min.js" />
+    <Content Include="assets\js\plugins\dataTables.responsive.min.js" />
+    <Content Include="assets\js\plugins\dataTables.rowReorder.min.js" />
+    <Content Include="assets\js\plugins\dataTables.select.min.js" />
+    <Content Include="assets\js\plugins\datepicker-full.min.js" />
+    <Content Include="assets\js\plugins\dropzone-amd-module.min.js" />
+    <Content Include="assets\js\plugins\feather.min.js" />
+    <Content Include="assets\js\plugins\flatpickr.min.js" />
+    <Content Include="assets\js\plugins\imask.min.js" />
+    <Content Include="assets\js\plugins\index.global.min.js" />
+    <Content Include="assets\js\plugins\intro.min.js" />
+    <Content Include="assets\js\plugins\Jarallax.js" />
+    <Content Include="assets\js\plugins\jsvectormap.min.js" />
+    <Content Include="assets\js\plugins\jszip.min.js" />
+    <Content Include="assets\js\plugins\keyTable.bootstrap5.min.js" />
+    <Content Include="assets\js\plugins\notifier.js" />
+    <Content Include="assets\js\plugins\nouislider.min.js" />
+    <Content Include="assets\js\plugins\pdfmake.min.js" />
+    <Content Include="assets\js\plugins\peity-vanilla.min.js" />
+    <Content Include="assets\js\plugins\popper.min.js" />
+    <Content Include="assets\js\plugins\prism.js" />
+    <Content Include="assets\js\plugins\quill.min.js" />
+    <Content Include="assets\js\plugins\responsive.bootstrap5.min.js" />
+    <Content Include="assets\js\plugins\scroller.bootstrap5.min.js" />
+    <Content Include="assets\js\plugins\simple-datatables.js" />
+    <Content Include="assets\js\plugins\simplebar.min.js" />
+    <Content Include="assets\js\plugins\simplemde.min.js" />
+    <Content Include="assets\js\plugins\star-rating.min.js" />
+    <Content Include="assets\js\plugins\sweetalert2.all.min.js" />
+    <Content Include="assets\js\plugins\tiny-slider.js" />
+    <Content Include="assets\js\plugins\tinymce\tinymce.min.js" />
+    <Content Include="assets\js\plugins\type-ahead.min.js" />
+    <Content Include="assets\js\plugins\uppy.min.js" />
+    <Content Include="assets\js\plugins\vanillatree.min.js" />
+    <Content Include="assets\js\plugins\vfs_fonts.js" />
+    <Content Include="assets\js\plugins\wizard.min.js" />
+    <Content Include="assets\js\plugins\wNumb.min.js" />
+    <Content Include="assets\js\plugins\world-merc.js" />
+    <Content Include="assets\js\plugins\world.js" />
+    <Content Include="assets\js\plugins\wow.min.js" />
+    <Content Include="assets\js\tech-stack.js" />
     <Content Include="Blog.aspx" />
     <Content Include="BlogDetails.aspx" />
     <Content Include="ContactHQ.aspx" />
-    <Content Include="ContactBranch.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
@@ -189,6 +382,7 @@
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
     <Content Include="Services.aspx" />
+    <Content Include="SundusEx.asmx" />
     <Content Include="TermsOfService.aspx" />
     <Content Include="Testimonials.aspx" />
     <Content Include="webassets\css\animate.min.css" />
@@ -375,6 +569,35 @@
     <Content Include="webassets\js\ScrollMagic.min.js" />
     <Content Include="webassets\js\TweenMax.min.js" />
     <Content Include="webassets\js\wow.min.js" />
+    <Content Include="assets\fonts\feather\feather.eot%40t=1525787366991" />
+    <Content Include="assets\fonts\feather\feather.svg%40t=1525787366991" />
+    <Content Include="assets\fonts\feather\feather.ttf%40t=1525787366991" />
+    <Content Include="assets\fonts\feather\feather.woff%40t=1525787366991" />
+    <Content Include="assets\fonts\fontawesome\fa-brands-400.eot" />
+    <Content Include="assets\fonts\fontawesome\fa-brands-400.eot%40" />
+    <Content Include="assets\fonts\fontawesome\fa-brands-400.ttf" />
+    <Content Include="assets\fonts\fontawesome\fa-brands-400.woff" />
+    <Content Include="assets\fonts\fontawesome\fa-brands-400.woff2" />
+    <Content Include="assets\fonts\fontawesome\fa-regular-400.eot" />
+    <Content Include="assets\fonts\fontawesome\fa-regular-400.eot%40" />
+    <Content Include="assets\fonts\fontawesome\fa-regular-400.ttf" />
+    <Content Include="assets\fonts\fontawesome\fa-regular-400.woff" />
+    <Content Include="assets\fonts\fontawesome\fa-regular-400.woff2" />
+    <Content Include="assets\fonts\fontawesome\fa-solid-900.eot" />
+    <Content Include="assets\fonts\fontawesome\fa-solid-900.eot%40" />
+    <Content Include="assets\fonts\fontawesome\fa-solid-900.ttf" />
+    <Content Include="assets\fonts\fontawesome\fa-solid-900.woff" />
+    <Content Include="assets\fonts\fontawesome\fa-solid-900.woff2" />
+    <Content Include="assets\fonts\inter\Inter-italic.var.woff2%40v=3.18" />
+    <Content Include="assets\fonts\inter\Inter-roman.var.woff2%40v=3.18" />
+    <Content Include="assets\fonts\material\material.woff2" />
+    <Content Include="assets\fonts\phosphor\duotone\Phosphor-Duotone.ttf" />
+    <Content Include="assets\fonts\phosphor\duotone\Phosphor-Duotone.woff" />
+    <Content Include="assets\fonts\tabler\tabler-icons.eot" />
+    <Content Include="assets\fonts\tabler\tabler-icons.eot%40" />
+    <Content Include="assets\fonts\tabler\tabler-icons.ttf" />
+    <Content Include="assets\fonts\tabler\tabler-icons.woff" />
+    <Content Include="assets\fonts\tabler\tabler-icons.woff2" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -422,6 +645,9 @@
       <DependentUpon>AboutUs.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="AfricasTalkingGateway.vb" />
+    <Compile Include="AfricasTalkingGatewayException.vb" />
+    <Compile Include="AITSMSManager.vb" />
     <Compile Include="App_Start\BundleConfig.vb" />
     <Compile Include="App_Start\RouteConfig.vb" />
     <Compile Include="Blog.aspx.designer.vb">
@@ -445,13 +671,7 @@
       <DependentUpon>ContactHQ.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="ContactBranch.aspx.designer.vb">
-      <DependentUpon>ContactBranch.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="ContactBranch.aspx.vb">
-      <DependentUpon>ContactBranch.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
+    <Compile Include="DatabaseConnectionManager.vb" />
     <Compile Include="Error404.aspx.designer.vb">
       <DependentUpon>Error404.aspx</DependentUpon>
     </Compile>
@@ -489,6 +709,9 @@
     <Compile Include="HelpCenter.aspx.vb">
       <DependentUpon>HelpCenter.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="HttpUtilsWebClient.vb">
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="index.aspx.designer.vb">
       <DependentUpon>index.aspx</DependentUpon>
@@ -551,6 +774,10 @@
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="SundusEx.asmx.vb">
+      <DependentUpon>SundusEx.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="TermsOfService.aspx.designer.vb">
       <DependentUpon>TermsOfService.aspx</DependentUpon>
     </Compile>
@@ -565,6 +792,7 @@
       <DependentUpon>Testimonials.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="UtilityFunctions.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">

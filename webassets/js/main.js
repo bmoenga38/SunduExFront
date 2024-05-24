@@ -271,3 +271,24 @@ function toggleTheme() {
     document.getElementById("slider").checked = true;
   }
 })();
+
+
+// Contact Tabs Hq and Branch 
+document.addEventListener("DOMContentLoaded", function () {
+    const tabs = document.querySelectorAll(".tab-link");
+    const contents = document.querySelectorAll(".tab-content");
+
+    tabs.forEach((tab) => {
+        tab.addEventListener("click", function (event) {
+            event.preventDefault();
+            const targetTab = this.getAttribute("data-tab");
+
+            tabs.forEach((t) => t.querySelector("a").classList.remove("active"));
+            contents.forEach((c) => c.classList.remove("current"));
+
+            this.querySelector("a").classList.add("active");
+            document.getElementById(targetTab).classList.add("current");
+        });
+    });
+});
+

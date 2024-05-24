@@ -26,6 +26,37 @@
     <link rel="stylesheet" href="webassets/css/responsive.css">
     <title>Sundus Exchange </title>
     <link rel="icon" type="image/png" href="webassets/images/sundus.svg">
+
+      <!-- Angular js -->
+    <script src="assets/js/angular.min.js"></script>
+    <%-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script> --%>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-cookies.js"></script>
+    <script data-require="angular-animate@1.6.*" data-semver="1.6.5" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-animate.min.js"></script>
+    <script data-require="angular-touch@1.6.*" data-semver="1.6.2" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular-touch.js"></script>
+    <script data-require="ui-bootstrap@*" data-semver="2.5.0" src="https://cdn.rawgit.com/angular-ui/bootstrap/gh-pages/ui-bootstrap-tpls-2.5.0.js"></script>
+    <%-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-datatables/0.6.2/angular-datatables.min.js"></script> --%>
+    <%-- <script src="dist/js/angular-datatables.min.js"></script> --%>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-resource/1.6.4/angular-resource.min.js" integrity="sha256-yvd+Dzk092nYfH39BvnCKokWueNXS7P4FEZgc0/B2Rg=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular-sanitize.min.js" integrity="sha256-Rzludu7Q/VP9RNPGzKR5zLimtMWLqdPIYCgwrM75xVI=" crossorigin="anonymous"></script>
+
+    <%-- ngTable --%>
+    <%--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ng-table/1.0.0/ng-table.min.css" integrity="sha256-sygdFLmCBqmo0USUOnXKAzy2s6PcgJr2eTTcJMpLQ4Y=" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ng-table/1.0.0/ng-table.min.js" integrity="sha256-7JSMGT2kEU80Rl0c6iwp5M6DyufxwRvQtwVvQvkgUUM=" crossorigin="anonymous"></script>--%>
+    <link rel="stylesheet" href="https://unpkg.com/ng-table@2.0.2/bundles/ng-table.min.css">
+    <script src="https://unpkg.com/ng-table@2.0.2/bundles/ng-table.min.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5UAAN7XyCB9r67VWoZ3_oRpHZa0hhn_M&libraries=places"></script>
+    <script src="https://rawgit.com/allenhwkim/angularjs-google-maps/master/build/scripts/ng-map.js"></script>
+    <%--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>--%>
+
+
+
+    <%-- Lodash --%>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.15/lodash.min.js" integrity="sha256-VeNaFBVDhoX3H+gJ37DpT/nTuZTdjYro9yBruHjVmoQ=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.27/dist/sweetalert2.all.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.27/dist/sweetalert2.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body>
@@ -42,7 +73,7 @@
                         </li>
 
                         <li>
-                            <a href="mailto:info@sunduspay.com">info@sunduspay.com</a>
+                            <a href="mailto:info@sundusexchange.com">info@sundusexchange.com</a>
                         </li>
                     </ul>
                 </div>
@@ -1066,7 +1097,7 @@
                         <ul class="info-links">
                             <li><span>Location:</span>Hai Malakia. Atlabara Near Hass Petroleum JUBA.</li>
                             <li><span>Email:</span>
-                                <a href="mailto:info@sunduspay.com">info@sunduspay.com</a>
+                                <a href="mailto:info@sundusexchange.com">info@sundusexchange.com</a>
                             </li>
                             <li><span>Phone:</span><a href="tel:0925206969">0925 206 969</a>
                             </li>

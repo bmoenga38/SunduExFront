@@ -1,6 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="ContactHQ.aspx.vb" Inherits="SunduFront.Contact" %>
-
-<!doctype html>
+﻿<!doctype html>
 <html lang="zxx">
 
 <head>
@@ -37,11 +35,12 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-6">
                     <ul class="topbar-information">
+
                         <li>
-                            <a href="tel:+0925206969">+0925 206 969 | +0924 441 051 </a>
+                            <a href="tel:+0925206969">+0925 206 969 | +0924 441 051</a>
                         </li>
                         <li>
-                            <a href="mailto:info@sunduspay.com">info@sunduspay.com</a>
+                            <a href="mailto:info@sundusexchange.com">info@sundusexchange.com</a>
                         </li>
                     </ul>
                 </div>
@@ -154,7 +153,7 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="page-banner-content" data-aos="fade-right" data-aos-delay="50" data-aos-duration="500"
                         data-aos-once="true">
-                        <h2>Sundus Exchange & M.Transfer SS</h2>
+                        <h2>Contact Headquarters | Branch </h2>
                         <ul>
                             <li>
                                 <a href="index.aspx">Home</a>
@@ -176,288 +175,439 @@
         </div>
     </div>
 
+
+    <!-- Contact Headquarters content -->
     <div class="contact-information-area pt-100 pb-75">
         <div class="container">
-            <div class="section-title">
-                <span>Contact Our Headquarters Information</span>
-                <h2>We're More Than International Payments, Get In Touch</h2>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-3 col-md-6">
-                    <div class="contact-information-card">
-                        <div class="icon">
-                            <i class="ri-map-pin-line"></i>
-                        </div>
-                        <h3>HQ Address:</h3>
-                        <p>Hai Malakia,  <br> Juba</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="contact-information-card">
-                        <div class="icon">
-                            <i class="ri-mail-line"></i>
-                        </div>
-                        <h3>Email Address:</h3>
-                        <p><a href="mailto:info@sunduspay.com">info@sunduspay.com</a>
-                            <br>
-                            <a href="mailto:info@sunduspay.com">sunduspay@gmail.com</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="contact-information-card">
-                        <div class="icon">
-                            <i class="ri-phone-line"></i>
-                        </div>
-                        <h3>HQ Phone Number:</h3>
-                        <p>
-                            <a href="tel:+0925206969">+0925 206 969</a>
-                            <br>
-                            <a href="tel:+0924441051">+0924 441 051</a>
-
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="contact-area ptb-100">
-        <div class="container">
-            <div class="section-title">
-                <span>Contact Information</span>
-                <h2>Fill In Your Information And We'll Be In Touch As Soon As We Can</h2>
-            </div>
-            <form id="contactForm">
+            <!-- contact us tag -->
+            <div class="contact-information-area pt-100 pb-75">
                 <div class="row">
-                    <div class="col-lg-6 col-md-12">
-                        <div class="form-group">
-                            <label>Your Name *</label>
-                            <input type="text" name="name" id="name" class="form-control" placeholder="Eg: Brian Adison"
-                                required data-error="Please enter your name">
-                            <div class="help-block with-errors"></div>
+                    <div class="col-xl-12 col-lg-12 col-md-12">
+                        <div class="special-tab text-center">
+                            <ul id="tabs" class="nav nav-tabs" role="tablist">
+
+                                <li role="presentation" class="text-uppercase font-weight-bold tab-link current"
+                                    data-tab="tab-1">
+                                    <a href="#tab-1" role="tab" data-toggle="tab" class="active">Contact
+                                        Headquarters</a>
+                                </li>
+                                <li role="presentation" class="text-uppercase font-weight-bold tab-link "
+                                    data-tab="tab-2">
+                                    <a href="#tab-2" role="tab" data-toggle="tab">Contact Branch</a>
+                                </li>
+
+                            </ul>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-12">
-                        <div class="form-group">
-                            <label>Email *</label>
-                            <input type="email" name="email" id="email" class="form-control"
-                                placeholder="example@sundusex@gmail.com" required data-error="Please enter your email">
-                            <div class="help-block with-errors"></div>
-                        </div>
+                </div>
+                <!-- end of contact us tag -->
+
+                <div id="tab-1" class="tab-content current">
+                    <div class="section-title">
+                        <span>Contact Our Headquarters Information</span>
+                        <h2>We're More Than International Payments, Get In Touch</h2>
+                        <p>Contact for Headquarters</p>
                     </div>
-                    <div class="col-lg-6 col-md-12">
-                        <div class="form-group">
-                            <label>Phone *</label>
-                            <input type="text" name="phone_number" id="phone_number"
-                                placeholder="Enter your phone number" required data-error="Please enter your number"
-                                class="form-control">
-                            <div class="help-block with-errors"></div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="contact-information-card">
+                                <div class="icon">
+                                    <i class="ri-map-pin-line"></i>
+                                </div>
+                                <h3>HQ Address:</h3>
+                                <p>Hai Malakia, <br> Juba</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                        <div class="form-group">
-                            <label>Subject *</label>
-                            <input type="text" name="msg_subject" id="msg_subject" placeholder="Enter your subject"
-                                class="form-control" required data-error="Please enter your subject">
-                            <div class="help-block with-errors"></div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="contact-information-card">
+                                <div class="icon">
+                                    <i class="ri-mail-line"></i>
+                                </div>
+                                <h3>Email Address:</h3>
+                                <p>
+                                    <a href="tel:+0925206969">+0925 206 969 +0924 441 051</a>
+                                    <br>
+                                    <a href="mailto:info@sundusexchange.com">info@sundusexchange.com</a>
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-12 col-md-12">
-                        <div class="form-group">
-                            <label>Your Message</label>
-                            <textarea name="message" class="form-control" id="message" placeholder="Type your message"
-                                cols="30" rows="6" required data-error="Write your message"></textarea>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-12 col-md-12">
-                        <div class="form-group">
-                            <div class="form-check">
-                                <input name="gridCheck" value="I agree to the terms and privacy policy."
-                                    class="form-check-input" type="checkbox" id="gridCheck" required>
-                                <label class="form-check-label" for="gridCheck">
-                                    I agree to the <a href="TermsOfService.aspx">terms</a> and <a
-                                        href="PrivacyPolicy.aspx">privacy policy</a>
-                                </label>
-                                <div class="help-block with-errors gridCheck-error"></div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="contact-information-card">
+                                <div class="icon">
+                                    <i class="ri-phone-line"></i>
+                                </div>
+                                <h3>Phone Number:</h3>
+                                <p>
+                                    <a href="tel:+0925206969">+0925 206 969</a>
+                                    <br>
+                                    <a href="tel:+0924441051">+0924 441 051</a>
+
+                                </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-12 col-md-12">
-                        <div class="send-btn">
-                            <button type="submit" class="default-btn">Submit Now</button>
+
+
+                    <div class="contact-area ptb-100">
+                        <div class="container">
+                            <div class="section-title">
+                                <span>Contact Information</span>
+                                <h2>Fill In Your Information And We'll Be In Touch As Soon As We Can</h2>
+                            </div>
+                            <form id="contactForm">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-12">
+                                        <div class="form-group">
+                                            <label>Your Name *</label>
+                                            <input type="text" name="name" id="name" class="form-control"
+                                                placeholder="Eg: Brian Adison" required
+                                                data-error="Please enter your name">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12">
+                                        <div class="form-group">
+                                            <label>Email *</label>
+                                            <input type="email" name="email" id="email" class="form-control"
+                                                placeholder="example@sundusex@gmail.com" required
+                                                data-error="Please enter your email">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12">
+                                        <div class="form-group">
+                                            <label>Phone *</label>
+                                            <input type="text" name="phone_number" id="phone_number"
+                                                placeholder="Enter your phone number" required
+                                                data-error="Please enter your number" class="form-control">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12">
+                                        <div class="form-group">
+                                            <label>Subject *</label>
+                                            <input type="text" name="msg_subject" id="msg_subject"
+                                                placeholder="Enter your subject" class="form-control" required
+                                                data-error="Please enter your subject">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12">
+                                        <div class="form-group">
+                                            <label>Your Message</label>
+                                            <textarea name="message" class="form-control" id="message"
+                                                placeholder="Type your message" cols="30" rows="6" required
+                                                data-error="Write your message"></textarea>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12">
+                                        <div class="form-group">
+                                            <div class="form-check">
+                                                <input name="gridCheck" value="I agree to the terms and privacy policy."
+                                                    class="form-check-input" type="checkbox" id="gridCheck" required>
+                                                <label class="form-check-label" for="gridCheck">
+                                                    I agree to the <a href="TermsOfService.aspx">terms</a> and <a
+                                                        href="PrivacyPolicy.aspx">privacy policy</a>
+                                                </label>
+                                                <div class="help-block with-errors gridCheck-error"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12">
+                                        <div class="send-btn">
+                                            <button type="submit" class="default-btn">Submit Now</button>
+                                        </div>
+                                        <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
-                        <div id="msgSubmit" class="h3 text-center hidden"></div>
-                        <div class="clearfix"></div>
                     </div>
                 </div>
-            </form>
-        </div>
-    </div>
 
-   
-    <!-- New ContactUs HQ and Branch Via  emails-->
-    <div class="overview-area ptb-100">
-        <div class="container">
-            <div class="overview-content" data-aos="fade-up" data-aos-delay="50" data-aos-duration="500"
-                data-aos-once="true">
-                <span>Connect With Us Via Our Branches</span>
-                <h3>Sending International Business Payments or Sending Money To Family Any time! Sundus Exchange Are
-                    Your Fast And
-                    Simple Solution.</h3>
-                <ul class="overview-btn-group">
-                   <%-- <li>
-                        <a href="ContactHQ.aspx" class="default-btn">Headquarters </a>
-                    </li>--%>
-                    <li>
-                        <a href="ContactBranch.aspx" class="optional-btn">Contact Our Branch </a>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Map and location -->
-            <iframe class="map-hai" src="https://mapcarta.com/N4009642426/Map"></iframe>
-
-        </div>
-        <div class="overview-shape">
-            <img src="webassets/images/overview/shape-1.png" alt="image">
-        </div>
-        <div class="overview-shape-2">
-            <img src="webassets/images/overview/shape-2.png" alt="image">
-        </div>
-    </div>
-
-
-
-
-
-
-
-
-
-    <footer class="footer-area pt-100">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-footer-widget" data-aos="fade-up" data-aos-delay="50" data-aos-duration="500"
-                        data-aos-once="true">
-                        <div class="widget-logo">
-                            <img src="webassets/images/logo.png" class="black-logo" alt="image">
-                            <img src="webassets/images/logo-2.png" class="white-logo" alt="image">
+                <div id="tab-2" class="tab-content">
+                    <div class="container">
+                        <div class="section-title">
+                            <span>Contact Branch Information</span>
+                            <h2>We're More Than International Payments, Get In Touch</h2>
+                            <p>Branch Contact</p>
                         </div>
-                        <p>To get exclusive updates and benefits.</p>
-                        <form class="newsletter-form" data-bs-toggle="validator">
-                            <input type="email" class="input-newsletter" placeholder="Enter email" name="EMAIL" required
-                                autocomplete="off">
-                            <button type="submit" class="default-btn">Subscribe</button>
-                            <div id="validator-newsletter" class="form-result"></div>
-                        </form>
-                        <ul class="widget-social">
-                            <li>
-                                <a href="https://web.facebook.com/SundusPay/?_rdc=1&_rdr" target="_blank">
-                                    <i class="ri-facebook-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/sunduspay" target="_blank">
-                                    <i class="ri-twitter-fill"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/sunduspayofficial/" target="_blank">
-                                    <i class="ri-instagram-line"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/sunduspay" target="_blank">
-                                    <i class="ri-linkedin-line"></i>
-                                </a>
-                            </li>
-                        </ul>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-3 col-md-6">
+                                <div class="contact-information-card">
+                                    <div class="icon">
+                                        <i class="ri-map-pin-line"></i>
+                                    </div>
+                                    <h3>Branch Address:</h3>
+                                    <p>Atlabara Near Hass Petroleum. <br> JUBA.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="contact-information-card">
+                                    <div class="icon">
+                                        <i class="ri-mail-line"></i>
+                                    </div>
+                                    <h3>Email Address:</h3>
+                                    <p><a href="tel:+0925206969">+0925 206 969 +0924 441 051</a>
+                                        <br>
+                                        <a href="mailto:info@sundusexchange.com">info@sundusexchange.com</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="contact-information-card">
+                                    <div class="icon">
+                                        <i class="ri-phone-line"></i>
+                                    </div>
+                                    <h3>Phone Number:</h3>
+                                    <p>
+                                        <a href="tel:+0927477736">+0927 477 736</a>
+                                        <br>
+                                        <a href="tel:0980382227">+0980 382 227</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-area ptb-100">
+                        <div class="container">
+                            <div class="section-title">
+                                <span>Contact Information</span>
+                                <h2>Fill In Your Information And We'll Be In Touch As Soon As We Can</h2>
+                            </div>
+                            <form id="contactForm">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-12">
+                                        <div class="form-group">
+                                            <label>Your Name *</label>
+                                            <input type="text" name="name" id="name" class="form-control"
+                                                placeholder="Eg: Brian Adison" required
+                                                data-error="Please enter your name">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12">
+                                        <div class="form-group">
+                                            <label>Email *</label>
+                                            <input type="email" name="email" id="email" class="form-control"
+                                                placeholder="example@sundusex@gmail.com" required
+                                                data-error="Please enter your email">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12">
+                                        <div class="form-group">
+                                            <label>Phone *</label>
+                                            <input type="text" name="phone_number" id="phone_number"
+                                                placeholder="Enter your phone number" required
+                                                data-error="Please enter your number" class="form-control">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12">
+                                        <div class="form-group">
+                                            <label>Subject *</label>
+                                            <input type="text" name="msg_subject" id="msg_subject"
+                                                placeholder="Enter your subject" class="form-control" required
+                                                data-error="Please enter your subject">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12">
+                                        <div class="form-group">
+                                            <label>Your Message</label>
+                                            <textarea name="message" class="form-control" id="message"
+                                                placeholder="Type your message" cols="30" rows="6" required
+                                                data-error="Write your message"></textarea>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12">
+                                        <div class="form-group">
+                                            <div class="form-check">
+                                                <input name="gridCheck" value="I agree to the terms and privacy policy."
+                                                    class="form-check-input" type="checkbox" id="gridCheck" required>
+                                                <label class="form-check-label" for="gridCheck">
+                                                    I agree to the <a href="TermsOfService.aspx">terms</a> and <a
+                                                        href="PrivacyPolicy.aspx">privacy policy</a>
+                                                </label>
+                                                <div class="help-block with-errors gridCheck-error"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12">
+                                        <div class="send-btn">
+                                            <button type="submit" class="default-btn">Submit Now</button>
+                                        </div>
+                                        <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- New ContactUs HQ and Branch Via  emails-->
+                <div class="overview-area ptb-100">
+                    <div class="container">
+                        <div class="overview-content" data-aos="fade-up" data-aos-delay="50" data-aos-duration="500"
+                            data-aos-once="true">
+                            <span>Connect With Us Via Our Branches</span>
+                            <h3>Sending International Business Payments or Sending Money To Family Overseas? Sundus
+                                Exchange
+                                Are
+                                Your Fast And
+                                Simple Solution.</h3>
+                            <!-- hq Map and location -->
+                            <iframe class="map-hai" src="https://mapcarta.com/N4009642426/Map"></iframe>
+
+                        </div>
+                    </div>
+                    <div class="overview-shape">
+                        <img src="webassets/images/overview/shape-1.png" alt="image">
+                    </div>
+                    <div class="overview-shape-2">
+                        <img src="webassets/images/overview/shape-2.png" alt="image">
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-footer-widget ps-5" data-aos="fade-up" data-aos-delay="60"
-                        data-aos-duration="600" data-aos-once="true">
-                        <h3>Company And Team</h3>
-                        <ul class="quick-links">
-                            <li><a href="index.aspx">Our Company</a></li>
-                            <li><a href="#">Saturday: 7:30A.M-2:30 P.M</a></li>
-                            <li><a href="AboutUs.aspx">About Us</a></li>
-                            <li><a href="HelpCenter.aspx">Affiliates And Partnerships</a></li>
 
-                        </ul>
+
+
+
+
+
+
+
+
+                <footer class="footer-area pt-100">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-3 col-md-6">
+                                <div class="single-footer-widget" data-aos="fade-up" data-aos-delay="50"
+                                    data-aos-duration="500" data-aos-once="true">
+                                    <div class="widget-logo">
+                                        <img src="webassets/images/logo.png" class="black-logo" alt="image">
+                                        <img src="webassets/images/logo-2.png" class="white-logo" alt="image">
+                                    </div>
+                                    <p>To get exclusive updates and benefits.</p>
+                                    <form class="newsletter-form" data-bs-toggle="validator">
+                                        <input type="email" class="input-newsletter" placeholder="Enter email"
+                                            name="EMAIL" required autocomplete="off">
+                                        <button type="submit" class="default-btn">Subscribe</button>
+                                        <div id="validator-newsletter" class="form-result"></div>
+                                    </form>
+                                    <ul class="widget-social">
+                                        <li>
+                                            <a href="https://web.facebook.com/SundusPay/?_rdc=1&_rdr" target="_blank">
+                                                <i class="ri-facebook-fill"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://twitter.com/sunduspay" target="_blank">
+                                                <i class="ri-twitter-fill"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/sunduspayofficial/" target="_blank">
+                                                <i class="ri-instagram-line"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.linkedin.com/sunduspay" target="_blank">
+                                                <i class="ri-linkedin-line"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="single-footer-widget ps-5" data-aos="fade-up" data-aos-delay="60"
+                                    data-aos-duration="600" data-aos-once="true">
+                                    <h3>Company And Team</h3>
+                                    <ul class="quick-links">
+                                        <li><a href="index.aspx">Our Company</a></li>
+                                        <li><a href="#">Saturday: 7:30A.M-2:30 P.M</a></li>
+                                        <li><a href="AboutUs.aspx">About Us</a></li>
+                                        <li><a href="HelpCenter.aspx">Affiliates And Partnerships</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="single-footer-widget ps-5" data-aos="fade-up" data-aos-delay="70"
+                                    data-aos-duration="700" data-aos-once="true">
+                                    <h3>Resources</h3>
+                                    <ul class="quick-links">
+                                        <li><a href="HelpCenter.aspx">Security</a></li>
+                                        <li><a href="Faq.aspx">FAQ's</a></li>
+                                        <li><a href="PrivacyPolicy.aspx">Privacy Policy</a></li>
+                                        <li><a href="ContactHQ.aspx">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="single-footer-widget" data-aos="fade-up" data-aos-delay="80"
+                                    data-aos-duration="800" data-aos-once="true">
+                                    <h3>Contact Info</h3>
+                                    <ul class="info-links">
+                                        <li><span>Location:</span> Hai Malakia. Atlabara Near Hass Petroleum JUBA.</li>
+                                        <li><span>Email:</span>
+                                            <a href="mailto:info@sundusexchange.com">info@sundusexchange.com</a>
+                                        </li>
+                                        <li><span>Phone:</span><a href="tel:+0925206969">+0925 206 969 | +0924 441 051
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-footer-widget ps-5" data-aos="fade-up" data-aos-delay="70"
-                        data-aos-duration="700" data-aos-once="true">
-                        <h3>Resources</h3>
-                        <ul class="quick-links">
-                            <li><a href="HelpCenter.aspx">Security</a></li>
-                            <li><a href="Faq.aspx">FAQ's</a></li>
-                            <li><a href="PrivacyPolicy.aspx">Privacy Policy</a></li>
-                            <li><a href="ContactHQ.aspx">Contact Us</a></li>
-                        </ul>
+                    <div class="copyright-area">
+                        <div class="container">
+                            <div class="copyright-area-content">
+                                <p>
+                                    Copyright @
+                                    <script data-cfasync="false"
+                                        src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+                                    <script>document.write(new Date().getFullYear())</script> Sundus Exchange All Rights
+                                    Reserved by
+                                    <a href="https://brycode.co.ke/" target="_blank">
+                                        HexTech
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
                     </div>
+                </footer>
+
+
+                <div class="go-top">
+                    <i class="ri-arrow-up-s-line"></i>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-footer-widget" data-aos="fade-up" data-aos-delay="80" data-aos-duration="800"
-                        data-aos-once="true">
-                        <h3>Contact Info</h3>
-                        <ul class="info-links">
-                            <li><span>Location:</span> Hai Malakia. Atlabara Near Hass Petroleum JUBA.</li>
-                            <li><span>Email:</span>
-                                <a href="mailto:info@sunduspay.com">info@sunduspay.com</a>
-                            </li>
-                            <li><span>Phone:</span><a href="tel:+0925206969">+0925 206 969 | +0924 441 051 </a>
-                            </li>
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copyright-area">
-            <div class="container">
-                <div class="copyright-area-content">
-                    <p>
-                        Copyright @
-                        <script data-cfasync="false"
-                            src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-                        <script>document.write(new Date().getFullYear())</script> Sundus Exchange All Rights Reserved by
-                        <a href="https://brycode.co.ke/" target="_blank">
-                            HexTech
-                        </a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </footer>
 
 
-    <div class="go-top">
-        <i class="ri-arrow-up-s-line"></i>
-    </div>
-
-
-    <script src="webassets/js/jquery.min.js"></script>
-    <script src="webassets/js/bootstrap.bundle.min.js"></script>
-    <script src="webassets/js/jquery.meanmenu.js"></script>
-    <script src="webassets/js/owl.carousel.min.js"></script>
-    <script src="webassets/js/jquery.appear.js"></script>
-    <script src="webassets/js/odometer.min.js"></script>
-    <script src="webassets/js/jquery.magnific-popup.min.js"></script>
-    <script src="webassets/js/TweenMax.min.js"></script>
-    <script src="webassets/js/ScrollMagic.min.js"></script>
-    <script src="webassets/js/aos.js"></script>
-    <script src="webassets/js/jquery.ajaxchimp.min.js"></script>
-    <script src="webassets/js/form-validator.min.js"></script>
-    <script src="webassets/js/contact-form-script.js"></script>
-    <script src="webassets/js/wow.min.js"></script>
-    <script src="webassets/js/main.js"></script>
+                <script src="webassets/js/jquery.min.js"></script>
+                <script src="webassets/js/bootstrap.bundle.min.js"></script>
+                <script src="webassets/js/jquery.meanmenu.js"></script>
+                <script src="webassets/js/owl.carousel.min.js"></script>
+                <script src="webassets/js/jquery.appear.js"></script>
+                <script src="webassets/js/odometer.min.js"></script>
+                <script src="webassets/js/jquery.magnific-popup.min.js"></script>
+                <script src="webassets/js/TweenMax.min.js"></script>
+                <script src="webassets/js/ScrollMagic.min.js"></script>
+                <script src="webassets/js/aos.js"></script>
+                <script src="webassets/js/jquery.ajaxchimp.min.js"></script>
+                <script src="webassets/js/form-validator.min.js"></script>
+                <script src="webassets/js/contact-form-script.js"></script>
+                <script src="webassets/js/wow.min.js"></script>
+                <script src="webassets/js/main.js"></script>
 </body>
 
 </html>

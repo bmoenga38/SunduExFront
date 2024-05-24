@@ -43,7 +43,7 @@
                             <a href="tel:+0925206969">+0925 206 969 | +0924 441 051 </a>
                         </li>
                         <li>
-                            <a href="mailto:info@sunduspay.com">info@sunduspay.com</a>
+                            <a href="mailto:info@sundusexchange.com">info@sundusexchange.com</a>
                         </li>
                     </ul>
                 </div>
@@ -615,7 +615,7 @@
                         <a href="ContactHQ.aspx" class="default-btn">Contact the Headquarters</a>
                     </li>
                     <li>
-                        <a href="ContactBranch.aspx" class="optional-btn">Contact Branch</a>
+                        <a href="ContactHQ.aspx" class="optional-btn">Contact Branch</a>
                     </li>
                 </ul>
             </div>
@@ -754,7 +754,7 @@
                         <ul class="info-links">
                             <li><span>Location:</span> Hai Malakia. Atlabara Near Hass Petroleum JUBA.</li>
                             <li><span>Email:</span>
-                                <a href="mailto:info@sunduspay.com">info@sunduspay.com</a>
+                                <a href="mailto:info@sundusexchange.com">info@sundusexchange.com</a>
                             </li>
                             <li><span>Phone:</span><a href="tel:+0925206969">+0925 206 969 | +0924 441 051 </a>
                             </li>
